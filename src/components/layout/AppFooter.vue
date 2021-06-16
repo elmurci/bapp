@@ -29,7 +29,7 @@
 
             <p class="mt-4 px-6 mb-3">
               <a href="mailto:info@botoapp.io">
-                <img src="/img/envelope.svg" class="inline-block pt-2 mr-3" alt="Email" title="Email">info@botoapp.io
+                <img src="img/envelope.svg" class="inline-block pt-2 mr-3" alt="Email" title="Email">info@botoapp.io
               </a>
             </p>
           </div>

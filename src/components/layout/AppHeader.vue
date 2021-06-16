@@ -13,7 +13,7 @@
             class="toggleColour text-white no-underline hover:no-underline text-xl lg:text-2xl"
             to="/"
           >
-            <img src="/img/boto_logo.png" width="110">
+            <img src="img/boto_logo.png" width="110">
           </router-link>
         </div>
         <div class="block lg:hidden pr-4">

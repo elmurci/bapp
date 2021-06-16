@@ -11,7 +11,7 @@
           </p>
         </div>
         <div class="flex flex-col w-1/2 pt-8">
-          <img src="/img/boto_ux.gif" class="border-8 border-white rounded rounded-lg">
+          <img src="img/boto_ux.gif" class="border-8 border-white rounded rounded-lg">
         </div>
       </div>
     </section>
@@ -48,7 +48,7 @@
                 <ol>
                   <li class="align-top inline-block pr-6 mb-12 md:w-1/3" :class="'text-' + item.align" v-for="(item, index) in awards" :key="index">
                     <div class="clearfix">
-                      <img :src="'/img/' + item.icon" width="100px" :class="(item.align === 'center') ? 'm-auto' : 'float-' + item.align">
+                      <img :src="'img/' + item.icon" width="100px" :class="(item.align === 'center') ? 'm-auto' : 'float-' + item.align">
                     </div>
                     <h4 class="text-xblack uppercase xbold">{{ item.title }}</h4>
                     <p class="mt-2">{{ item.text }}</p>

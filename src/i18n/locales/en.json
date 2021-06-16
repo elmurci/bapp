@@ -1,0 +1,91 @@
+{
+  "language": {
+    "es": {
+        "button": "ES",
+        "title": "Español"
+    },
+    "en": {
+        "button": "EN",
+        "title": "English"
+    }
+  },
+  "header": {
+    "wait": "Wait List",
+    "how": "How it works",
+    "featured": "Featured",
+    "title": "Boto"
+  },
+  "home": {
+    "hero": {
+      "title": "Join the Bot Democratization Movement",
+      "text": "We are building a community for developers and non-developers to create and share their automations."
+    },
+    "main": {
+      "content": {
+        "second": {
+          "title": "Featured",
+          "awards": [
+            {
+              "title": "Accelerator",
+              "text": "Some description here",
+              "icon": "award-shield.svg",
+              "align": "left"
+            },
+            {
+              "title": "Winner",
+              "text": "Consensys Infura Project Prize",
+              "icon": "award-circular.svg",
+              "align": "center"
+            },
+            {
+              "title": "Third place",
+              "text": "Aave Prize Third Place",
+              "icon": "award-medal.svg",
+              "align": "right"
+            }
+          ]
+        },
+        "third": {
+          "title": "Your bot in 3 easy steps",
+          "steps": [
+            {
+              "title": "Step 1",
+              "text": "Select, Drag and Drop your blocks"
+            },
+            {
+              "title": "Step 2",
+              "text": "Build Your Logic"
+            },
+            {
+              "title": "Step 3",
+              "text": "Deploy your bot"
+            }
+          ]
+        }
+      }
+    },
+    "box_1": {
+      "title": "<span class='text-xgreen'>Boto</span> is a platform where non-developers can build their own logic using pre-built blocks from the marketplace and socialize their automation with others."
+    },
+    "bottom": {
+      "content": {
+        "first": {
+          "title": "Our Mission",
+          "text": "Build a community for developers and non-developers to create and share their automations."
+        },
+        "second": {
+          "title": "Be the first to know when we are live and start building your bots!",
+          "placeholder": "Email Address",
+          "action": "Sign Up"
+        },
+        "third": {
+          "title": "Contact Us"
+        }
+      }
+    },
+    "subsection": {
+      "title": "XRPL Grants Program",
+      "text": "Supporting the open source ecosystem around the XRP Ledger in order to boost inclusive standards and innovation in the Internet of Value."
+    }
+  }
+}

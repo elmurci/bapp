@@ -1,0 +1,186 @@
+.tooltip .tooltip-text {
+    visibility: hidden;
+    text-align: center;
+    padding: 2px 6px;
+    position: absolute;
+    z-index: 100;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #0d8564 20%, #29CB96 70%);
+}
+.bg-dark-green {
+    background: #0d8564;
+}
+
+a {
+  @apply text-xgreen underline;
+}
+
+a:hover :not(button) {
+    text-decoration: underline;
+    color: #19FF83;
+}
+
+.xmenu:focus {
+    color:#19FF83;
+}
+
+.xmenu {
+    color:#fff;
+}
+
+.xHeroBg {
+    background: url(/img/hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 0%;
+
+    @include media_tablet {
+        background-position: -50% 30%;
+    }
+
+    @include media_mobile {
+        background-size: 100% 100%;
+    }
+    
+}
+
+.xHeroBgMobile {
+    @include media_mobile {
+        background: none;
+    }
+}
+
+.xBg {
+    background-image: url(/img/xbg.svg);
+}
+
+.xBg2 {
+    background: url(/img/xbg2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-xgray {
+    background-color: #383838;
+}
+
+.text-xgray {
+    background-color: #383838;
+}
+
+.pHero {
+    padding-bottom: 120px;
+    padding-top: 60px;
+
+    @include media_mobile {
+        padding-bottom: 30px;
+    }
+}
+
+.preLine {
+    white-space: pre-line;
+}
+
+.bg-xb {
+  background-color: #01241a;
+}
+
+.bg-xgreen-default {
+  background-color: #29CB96;
+}
+
+.bg-xgreen {
+    background-color: #29CB96;
+
+    &:hover {
+      background-color: #29CB96;
+    }
+
+    &:active {
+      background-color: #29CB96;
+    }
+}
+
+.text-xgreen {
+    color: #50f2bc;
+}
+
+.bg-x {
+    background-color: #179c78;
+}
+
+.bg-x-hover-active {
+  background-color: #1D1D1D;
+
+  &:hover {
+    background-color: #29CB96;
+  }
+
+  &:active {
+    background-color: #29CB96;
+  }
+}
+
+.text-xblack {
+    color: #1D1D1D;
+}
+
+.text-white-hover-active {
+  color: white;
+
+  &:hover {
+    color: #1D1D1D;
+  }
+
+  &:active {
+    color: #1D1D1D;
+  }
+}
+
+.xbold {
+    font-family: 'Archia Bold';
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.lang {
+    display: block;
+    padding: 10px 20px;
+    min-width: 120px;
+}
+
+.lang:hover {
+    color: #1D1D1D;
+    cursor: pointer;
+    background-color: #29CB96;
+}
+
+.lang:hover {
+    color: #1D1D1D;
+    cursor: pointer;
+    background-color: #29CB96;
+}
+
+.hs-input {
+  @apply mb-6 appearance-none bg-xgray rounded w-full py-3 px-3 text-xgray leading-tight;
+}
+
+.hs-input:focus {
+  @apply outline-none shadow-md;
+}
+
+.hs-button {
+  @apply mt-4 text-base mx-auto lg:mx-0 bg-xgreen text-black xbold rounded my-4 py-3 px-6;
+}
+
+.hs-button:focus {
+  @apply outline-none shadow-md;
+}
